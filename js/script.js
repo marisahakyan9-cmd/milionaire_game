@@ -23,9 +23,9 @@ let aiExplainBlock = document.getElementById('aiExplainBlock');
 let aiExplainText = document.getElementById('aiExplainText');
 let aiExplainClose = document.getElementById('aiExplainClose');
 
-// ⚠️ Բանալին բացահայտ է front-end կոդում, քանի որ այս նախագծում backend չկա (գիտակցված ռիսկ)
-const OPENAI_API_KEY = ' ';
-const OPENAI_MODEL = '';
+// ⚠️ Բանալին բացահայտ է front-end կոդում, քանի որ այս նախագծում backend չկա (գիտակցված ռիսկ)ti
+const OPENAI_API_KEY = '';
+const OPENAI_MODEL = 'gpt-5.4';
 
 showBtn.addEventListener('click', function () {
   popup.classList.add('show');
@@ -679,21 +679,20 @@ function getActiveBlockLength(parentChild) {
 
 //Պատասխաններով օբյեկտ
 const answers = {
-  question_1: 'Գ․ Փողային',
-  question_2: 'Դ․ Լաջվարդակուրծք',
-  question_3: 'Բ․ Իլիական',
-  question_4: 'Գ․ Կիսակղզի',
-  question_5: 'Ա․ Սուրը',
-  question_6: 'Գ․ Մակարդ',
-  question_7: 'Գ․ Հելիում',
-  question_8: 'Գ․ «Արկտիկա»',
-  question_9: 'Բ․ Նախանձել',
-  question_10: 'Բ․ Սպլիտ',
-  question_11: 'Բ․ Արմին Խարի',
-  question_12: 'Ա․ 1914',
-  question_13: 'Գ․ Իսպանիա',
-  question_14: 'Ա․ Հնդիկ',
-  question_15: 'Բ․ Պերու',
+  question_1: 'Գ․ Ոչ մի ուղղությամբ',
+  question_2: 'Բ․ Ազոտ',
+  question_3: 'Գ․ 5 րոպեում',
+  question_4: 'Բ․ Նեպալ',
+  question_5: 'Գ․ Ուղեղը',
+  question_6: 'Բ․ Երկուսն էլ մտային փորձեր են',
+  question_7: 'Բ․ Պլատոն',
+  question_8: 'Բ․ 5',
+  question_9: 'Ա․ Բեկման ցուցչի և ատոմների հետ փոխազդեցության',
+  question_10: 'Ա․ Թյուրինգի թեստ',
+  question_11: 'Բ․ Եվրոպա',
+  question_12: 'Բ․ Եռակի կետ',
+  question_13: 'Ա․ Աչքի եղջերաթաղանթը',
+  question_14: 'Բ․ 7.5 վայրկյան',
+  question_15: 'Գ․ Ալբանիա (Շքիպերիա)',
   question_extra: 'Դ․ Երազների'
-
 };
